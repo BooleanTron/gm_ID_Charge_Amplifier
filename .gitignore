@@ -1,0 +1,24 @@
+# Claude Code / AI tooling
+.claude/
+.mcp.json
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+*.swp
